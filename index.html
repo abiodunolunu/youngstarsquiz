@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="essay">
+            <div class="container">
+                <div class="title">
+                    <h1>TITLE: VANITY  AND PRIDE</h1>
+                </div>
+                <div class="instructions">
+                    <h2>Instruction: Read Carefully</h2>
+                    <ul>
+                        <li>- Read the following passage and answer the questions given below it in the context of the
+                            passage. Once you click proceed. You can't come back to read it</li>
+                        <li>- Take as long as possible to read and assimilate</li>
+                        <li>- Once your start the Quiz, Time starts</li>
+                        <li>- You can only answer a question once: No Going Back</li>
+                    </ul>
+                </div>
+                <div class="passage">
+                    <p>
+                        A well-dressed young man, Abiodun, entered a big textile shop one evening. He was able to draw the
+                        attention of the salesmen who thought him rich and likely to make heavy purchases. He was shown
+                        the superior varieties of suit lengths and sarees. But after casually examining them, he kept
+                        moving to the next section, where readymade goods were being sold and further on to the hosiery
+                        section. By them, the salesmen had begun to doubt his intentions and drew the attention of the
+                        manager. The manager asked him what exactly he wanted and he replied that he wanted courteous
+                        treatment. He explained that he had come to the same shop in casual dress that morning and drawn
+                        little attention. His pride was hurt and he wanted to assert himself. He had come in good dress
+                        only to get decent treatment, not for getting any textiles. He left without making any purchase.
+                    </p>
+                    <p></p>
+                </div>
+                <div class="go-to-quiz">
+                    <button onclick="proceedToQuiz()">Proceed to Questions</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz">
+            <div class="clock">
+                <p>Time</p>
+                <div class="timer">
+                    <div class="inner">
+                        <span>20</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="number">
+                <p>Question <span class="current"></span>/ <span class="total"></span> </p>
+            </div>
+
+            <div class="questions-answers">
+                <p class="question">What attraction in Montreal is one of the largest in the world?</p>
+
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="answer">
+                        <p>The Botanical Gardens <span></span> </p>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="answer">
+                        <p>The Botanical Gardens <span></span> </p>
+                    </label>
+
+
+                    <label>
+                        <input type="radio" name="answer">
+                        <p>The Botanical Gardens <span></span> </p>
+                    </label>
+
+                    <label>
+                        <input type="radio" name="answer">
+                        <p>The Botanical Gardens <span></span> </p>
+                    </label>
+                </div>
+            </div>
+
+            <button id="next" onclick="verifyAnswerAndMoveOn()">NEXT</button>
+        </section>
+
+        <section class="result">
+           
+        </section>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
